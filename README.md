@@ -1,6 +1,6 @@
 # OverView
 
-...This project was part of my undergrad Capstone Project at CSUCI. The goal of the robot was to implement machine learning to detect and avoid obstacles and to utilize  ...encoders to precisely get the distance the robot has travel to use for go to goal functionality. The robot is an easy to assemble SparkFun JetBot AI Kit v2.1. It uses a ...Jetson Nano to process the images on the camera to detect object and nativate around them. It uses an Arduino Uno to receive the ticks from the encoders to compute the ...distance the robot has traveled.  
+This project was part of my undergrad Capstone Project at CSUCI. The goal of the robot was to implement machine learning to detect and avoid obstacles and to utilize  encoders to precisely get the distance the robot has travel to use for go to goal functionality. The robot is an easy to assemble SparkFun JetBot AI Kit v2.1. It uses a Jetson Nano to process the images on the camera to detect object and nativate around them. It uses an Arduino Uno to receive the ticks from the encoders to compute the distance the robot has traveled.  
 
 ## Experience Gained 
 * Python 

@@ -30,7 +30,7 @@ This project was part of my undergrad Capstone Project at CSUCI. The goal of the
 * Install Python 3 in Jetson Nano
 * Install Arduino IDE in Jetson Nano or another computer 
 * Set up JupyterHub account 
-[Github page for Jetbot examples](https://github.com/NVIDIA-AI-IOT/jetbot/wiki/examples)
+* [Github page for Jetbot examples](https://github.com/NVIDIA-AI-IOT/jetbot/wiki/examples)
 ## Assembly
 [Link to Assembly Guide for Jetbot](https://learn.sparkfun.com/tutorials/assembly-guide-for-sparkfun-jetbot-ai-kit-v20?_ga=2.261292105.536387234.1606373246-1000841287.1602133051)
 

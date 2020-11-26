@@ -6,13 +6,14 @@ This project was part of my undergrad Capstone Project at CSUCI. The goal of the
 * Python 
 * Arduino C++ 
 * Microntrollers 
+
 ...1. Interrupts 
-...2. Digital Inputs and Outputs 
+2. Digital Inputs and Outputs 
 * Jetson Nano
-...1. I2C Bus
-...2. Serial Communication between Arduino and Jetson Nano
-...3. Linux 
-...4. JupiderHub 
+1. I2C Bus
+2. Serial Communication between Arduino and Jetson Nano
+3. Linux 
+4. JupiderHub 
 
 ## Program and Code requisites 
 * Python 3 
@@ -34,7 +35,10 @@ This project was part of my undergrad Capstone Project at CSUCI. The goal of the
 
 ## Code
 * Arduino (C++)
+
 ..."encoder_program.py" contains the program that reads the ticks from the encoders and displays them in the serial monitor. This output will be received through serial ...communication to Jetson Nano as bytes and the Jetson Nano will process the data and determine the distance the robot has traveled.
+
 * Python 
+
 ...3 JupyderHub files for collecting data for training, training and testing the obstacle detection 
 

@@ -46,8 +46,8 @@ This project was part of my undergrad Capstone Project at CSUCI. The goal of the
 3 JupyderHub files for collecting data for training, training and testing the obstacle detection 
 
 UI to collect data to train the machine learning algorithm to distigish a blocked from a free path: 
-![Collecting Images UI](https://github.com/lmanuelfigueroa/JetbotObstacleAvoidance/tree/main/readme_images/capture_object.PNG)
+![Collecting Images UI](readme_images/capture_object.PNG)
 
 
 UI to display what robot views while it is running. The scroll UI on right side of image indicates if it detects an object the values increases and the avoidance function executes.
-![Displaying Images During Runs UI](https://github.com/lmanuelfigueroa/JetbotObstacleAvoidance/tree/main/readme_images/blocked_path.PNG)
+![Displaying Images During Runs UI](/readme_images/blocked_path.PNG)

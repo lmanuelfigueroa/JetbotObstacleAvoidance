@@ -19,8 +19,8 @@ This project was part of my undergrad Capstone Project at CSUCI. The goal of the
 * Python 3 
 * Arduno IDE 
 * jetbot library (to access motors and camera)
-*IPython and ipywidgets to display screens
-* torch and torchvision (used to train the machine learning model)
+* IPython and ipywidgets to display screens
+* PyTorch by importing torch and torchvision (used to train the machine learning model)
 
 
 ## HardWare Requisites
@@ -28,7 +28,7 @@ This project was part of my undergrad Capstone Project at CSUCI. The goal of the
 * 2 Wheel SparkFun Encoders 
 * Arduino Uno 
 * 6 male to male wire jumper cables for Arduino 
-* USB Data Sync Cable for Arduino U
+* USB Data Sync Cable for Arduino Uno
 
 ## Getting Started
 * Install Python 3 in Jetson Nano
@@ -40,7 +40,7 @@ This project was part of my undergrad Capstone Project at CSUCI. The goal of the
 
 ## Code
 * Arduino (C++)
-"encoder_program.py" contains the program that reads the ticks from the encoders and displays them in the serial monitor. This output will be received through serial communication to Jetson Nano as bytes and the Jetson Nano will process the data and determine the distance the robot has traveled.
+"encoder_program.ino" contains the program that reads the ticks from the encoders and displays them in the serial monitor. This output will be received through serial communication to Jetson Nano as bytes and the Jetson Nano will process the data and determine the distance the robot has traveled.
 
 * Python 
 3 JupyderHub files for collecting data for training, training and testing the obstacle detection 

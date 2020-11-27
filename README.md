@@ -18,6 +18,10 @@ This project was part of my undergrad Capstone Project at CSUCI. The goal of the
 ## Program and Code requisites 
 * Python 3 
 * Arduno IDE 
+* jetbot library (to access motors and camera)
+*IPython and ipywidgets to display screens
+* torch and torchvision (used to train the machine learning model)
+
 
 ## HardWare Requisites
 * SparkFun JetBot AI Kit V2.0(Contains Jetson Nano but no wheel encoders)

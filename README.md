@@ -51,4 +51,5 @@ After collecting the data use `train_robot.ipynb` to load the images from the da
 
 Once it is trained use the file `obstacle_avoidance.ipynb` to run the robot. At this point the the program will display a GUI of what the camera views and it will display if it has a free or blocked path. Once it detert a blocked path it will manueuver around the object. 
 
-UI to display what robot views while it is running. The scroll UI on right side of image indicates if it detects an object the values increases and the avoidance function executes:![Displaying Images During Runs UI](readme_images/blocked_path.PNG)
+UI to display what robot views while it is running. The scroll UI on right side of image indicates if it detects an object the values increases and the avoidance function executes:
+![Displaying Images During Runs UI](readme_images/blocked_path.PNG)

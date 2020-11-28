@@ -40,7 +40,7 @@ This project was part of my undergrad Capstone Project at CSUCI. The goal of the
 
 ## Code
 * Arduino (C++)
-`encoder_program.ino` is the program that reads the ticks from the encoders and displays them in the serial monitor. In the Jetson Nano side use JypyterHub and use `testing_read_serial.ipynb` to printout the data from Arduino into Jetson.This output will be received through serial communication to Jetson Nano as bytes and the Jetson Nano will process the data and determine the distance the robot has traveled.
+`encoder_program.ino` is the program that reads the ticks from the encoders and displays them in the serial monitor. In the Jetson Nano side use JypyterHub and use `testing_read_serial.ipynb` to printout the data from Arduino into Jetson.This output will be received through serial communication to Jetson Nano as bytes and the Jetson Nano will process the data and determine the distance the robot has traveled.Note when running the `testing_read_serial.ipynb` you need to open a terminal and give permission to read from the port. Use `sudo chmod 666 /dev/ttyACM0` to read from the serial port where the Arduino is connected.
 
 * Python 
 Use `collecting_obj_data.ipynb` to create a GUI that will be used to collect the images and associate the images having a free or blocked path.

@@ -54,3 +54,5 @@ Once it is trained use the file `obstacle_avoidance.ipynb` to run the robot. At 
 UI to display what robot views while it is running. The scroll UI on right side of image indicates if it detects an object the values increases and the avoidance function executes:
 
 ![Displaying Images During Runs UI](readme_images/blocked_path.PNG)
+
+The file `obstacle_avoidance.ipynb` uses `maneuver.py` which it is use when the robot detects an object to maneuver around the object and it uses the `encoder.py` which reads the encoder data converts it into cm traveled and then it check if the goal has been reached to stop the motors. An example of the maneuver motion can be used using `maneuver.ipynb`
